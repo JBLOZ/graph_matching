@@ -2,6 +2,21 @@
 
 ### Informe de Prácticas: Técnicas de Algoritmos de Búsqueda
 
+## Índice
+
+1. [Introducción](#introducción)
+2. [DataLoader](#dataloader)
+3. [Visualización de Imágenes y Keypoints - Parte 1](#visualización-de-imágenes-y-keypoints---parte-1)
+4. [Visualización de Imágenes y Keypoints - Parte 2](#visualización-de-imágenes-y-keypoints---parte-2)
+   1. [Triangulación de Delaunay](#triangulación-de-delaunay)
+   2. [Grafos K-NN (K vecinos más cercanos)](#grafos-knn-k-vecinos-más-cercanos)
+5. [Generación de Grafos Matcheados - Parte 1](#generación-de-grafos-matcheados---parte-1)
+6. [Generación de Grafos Matcheados - Parte 2](#generación-de-grafos-matcheados---parte-2)
+7. [Conclusiones sobre los resultados obtenidos](#conclusiones-sobre-los-resultados-obtenidos)
+   1. [Experimentos 1 y 2](#experimentos-1-y-2)
+   2. [Experimento 3](#experimento-3)
+   3. [Experimento 4](#experimento-4)
+
 ## Introducción
 
 El objetivo de esta práctica ha sido profundizar en técnicas de algoritmos de búsqueda aplicadas al problema de correspondencia de grafos (graph matching). El trabajo se ha centrado principalmente en la visualización, construcción y matching de grafos basados en puntos clave (keypoints) de imágenes del conjunto de datos Willow-ObjectClass.
