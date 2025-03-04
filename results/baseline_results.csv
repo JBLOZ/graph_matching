@@ -1,0 +1,6 @@
+Category,Mean_Accuracy,Std_Deviation,Number_of_Pairs
+car,0.7118,0.3007,780
+duck,0.6753,0.2878,1225
+face,0.8452,0.1879,5886
+motorbike,0.8265,0.2302,780
+winebottle,0.8826,0.1792,2145
