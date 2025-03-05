@@ -129,7 +129,7 @@ knn7_rs
 
 duck_weight_sensitivity_rs
 
-
+ 
 |    | Weight_Combination   |   Mean_Accuracy |   Std_Deviation |   Number_of_Pairs |
 |---:|:---------------------|----------------:|----------------:|------------------:|
 |  0 | (0.3, 0.3, 0.4)      |          0.9867 |          0.0499 |                15 |
