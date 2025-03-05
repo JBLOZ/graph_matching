@@ -150,6 +150,8 @@ for i, (df, label) in enumerate(zip(dfs, labels)):
     offset = (i - 2) * width  # centra las barras: índices -2, -1, 0, 1, 2
     ax.bar(x + offset, accuracies, width, label=label, color=colors[i])
 
+
+plt.grid(axis='y', alpha=0.7)
 ax.set_xticks(x)
 ax.set_xticklabels(categories)
 ax.set_xlabel("Categoría")
@@ -167,6 +169,8 @@ for i, (df, label) in enumerate(zip(dfs, labels)):
     offset = (i - 2) * width
     ax.bar(x + offset, std_devs, width, label=label, color=colors[i])
 
+
+plt.grid(axis='y', alpha=0.7)
 ax.set_xticks(x)
 ax.set_xticklabels(categories)
 ax.set_xlabel("Categoría")
